@@ -22,7 +22,7 @@ export interface HomepageMeta {
  */
 export interface Hero {
   videoSrc?: string;
-  // imageSrc: string;
+  // imageSrc: string; < If want to use image as background
   name: string;
   description: JSX.Element;
   actions: HeroActionItem[];
