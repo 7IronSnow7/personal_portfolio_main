@@ -9,8 +9,9 @@ import TimelineItem from './TimelineItem';
 const Resume: FC = memo(() => {
   return (
     <Section className="bg-neutral-100" sectionId={SectionId.Resume}>
-        {/* Add PDF Resume Viewer at the top */}
-        <div className="mb-8">
+        // iframe resume veiwer feature
+        {/* Add PDF Resume Viewer at the top */} 
+        {/* <div className="mb-8">
         <h2 className="text-2xl font-bold text-center mb-4">View My Resume</h2>
         <div className="w-full h-[600px] border border-gray-300 rounded-lg overflow-hidden">
           <iframe 
@@ -19,7 +20,7 @@ const Resume: FC = memo(() => {
             title="Resume PDF"
           />
         </div>
-      </div>
+      </div> */}
       
       {/* Keep existing content */}
       <div className="flex flex-col divide-y-2 divide-neutral-300">
