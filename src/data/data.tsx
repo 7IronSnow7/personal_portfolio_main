@@ -117,10 +117,10 @@ to continuous improvement ensure measurable success in every endeavor`,
   aboutItems: [
     {label: 'Location', text: 'South Africa', Icon: MapIcon},
     {label: 'Age', text: '28', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Nationality', text: 'South African', Icon: FlagIcon},
+    {label: 'Interests', text: 'Travelling, Coding, MMA', Icon: SparklesIcon},
+    {label: 'Study', text: 'IIE Varsity College', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Project Lead', Icon: BuildingOffice2Icon},
   ],
 };
 
