@@ -75,7 +75,7 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a South Afirca based <strong className="text-stone-100">Software Developer</strong>, currently
-         <strong className="text-stone-100">Freelancing</strong>building and scaling realworld applications.
+         <strong className="text-stone-100"> Freelancing </strong>building and scaling realworld applications.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training in <strong className="text-stone-100"> MMA </strong>,
