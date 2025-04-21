@@ -347,12 +347,12 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
+      text: 'divan.debruin25@gmail.com',
       href: 'mailto:reachout@timbaker.me',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
+      text: 'South Africa, Durban',
       href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
     },
     {
@@ -362,8 +362,8 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'ddebruin',
+      href: 'https://github.com/7IronSnow7',
     },
   ],
 };

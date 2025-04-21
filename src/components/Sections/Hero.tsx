@@ -1,12 +1,12 @@
 import {ChevronDownIcon} from '@heroicons/react/24/outline';
 import classNames from 'classnames';
-// import Image from 'next/image';
 import {FC, memo} from 'react';
 
+// import Image from 'next/image';
 import {heroData, SectionId} from '../../data/data';
+import {Hero} from '../../data/dataDef'
 import Section from '../Layout/Section';
 import Socials from '../Socials';
-import { Hero } from '../../data/dataDef'
 
 const HeroComponent: FC = memo(() => {
   const {videoSrc, name, description, actions} = heroData as Hero;
@@ -16,9 +16,9 @@ const HeroComponent: FC = memo(() => {
       <div className="relative flex h-screen w-full items-center justify-center">
       <video
           autoPlay
+          className="absolute z-0 h-full w-full object-cover"
           loop
           muted
-          className="absolute z-0 h-full w-full object-cover"
           src={videoSrc}
         />
         {/* <Image
