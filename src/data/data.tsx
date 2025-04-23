@@ -348,7 +348,7 @@ export const contact: ContactSection = {
     {
       type: ContactType.Email,
       text: 'divan.debruin25@gmail.com',
-      href: 'mailto:reachout@timbaker.me',
+      href: 'mailto:divan.debruin25@gmail.com',
     },
     {
       type: ContactType.Location,
