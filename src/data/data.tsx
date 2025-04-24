@@ -44,7 +44,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
+  title: 'Divan De Bruin | Software Developer',
   description: "Divan De Bruin professional Portfolio",
 };
 
