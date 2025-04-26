@@ -136,8 +136,8 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'Afrikaans',
+        level: 7,
       },
       {
         name: 'Spanish',
@@ -149,16 +149,16 @@ export const skills: SkillGroup[] = [
     name: 'Frontend development',
     skills: [
       {
-        name: 'React',
-        level: 9,
-      },
-      {
         name: 'Typescript',
-        level: 7,
+        level: 5,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'HTML',
+        level: 5,
+      },
+      {
+        name: 'CSS',
+        level: 4
       },
     ],
   },
@@ -166,33 +166,21 @@ export const skills: SkillGroup[] = [
     name: 'Backend development',
     skills: [
       {
-        name: 'Node.js',
+        name: 'Python',
         level: 8,
       },
       {
-        name: 'Rust',
+        name: 'C#',
         level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Framework',
     skills: [
       {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
+        name: 'Django',
+        level: 5,
       },
     ],
   },
@@ -275,39 +263,40 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '02 Feb 2015 -  14 Nov 2017',
+    location: 'IIE Varsity College, Durban, South Africa',
+    title: 'Bachelor of Commerce in Business',
+    content: <p>Majored in Marketing where I developed a solid foundation in business principles, and strategic communication.
+ </p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '05 Feb 2018 - 30 Nov 2018',
+    location: 'IIE Varsity College, Durban, South Africa',
+    title: 'Honors in Management and Leadership',
+    content: <p>Explored advanced concepts in leadership, organizational management, and decision-making strategies.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'Dec 2023 - Present',
+    location: 'Sebonack Golf Club, NY, USA',
+    title: 'Project Lead',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+      Led the planning and execution of enterprise events, ensuring flawless delivery through strategic scheduling, logistics management, and on-site coordination. 
+      Proactively applied strong problem-solving skills to anticipate and address operational challenges, maintaining the organization's highest professional standards at every event.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'Feb 2022 - Dec 2023',
+    location: 'Woodfield CC, FL, USA',
+    title: 'Supervisor',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Served as a primary point of contact for team coordination, facilitating seamless communication and swift decision-making in a fast-paced environment. 
+        Utilized strong analytical and logical thinking to anticipate challenges, implement effective solutions, and drive improvements in service efficiency.
       </p>
     ),
   },
@@ -343,7 +332,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Feel free to contact me, I will reply as soon as possible.',
+  description: 'Let\n\'s get in touch.',
   items: [
     {
       type: ContactType.Email,
@@ -353,7 +342,7 @@ export const contact: ContactSection = {
     {
       type: ContactType.Location,
       text: 'South Africa, Durban',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      href: 'https://www.google.ca/maps/place/Durban,+South+Africa/@-29.883333,31.049999,14z',
     },
     {
       type: ContactType.Instagram,
@@ -362,7 +351,7 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Github,
-      text: 'divan de bruin',
+      text: '7IronSnow7',
       href: 'https://github.com/7IronSnow7',
     },
   ],
