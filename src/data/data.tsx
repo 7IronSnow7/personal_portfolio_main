@@ -86,7 +86,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/pdfs/resume.pdf',
+      href: '/pdfs/DivanDeBruin.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
