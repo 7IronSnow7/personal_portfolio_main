@@ -26,7 +26,7 @@ import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
-import testimonialImage from '../images/testimonial.webp';
+import testimonialImage from '../images/testimonial_background.jpg';
 import {
   About,
   ContactSection,
@@ -309,18 +309,18 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      name: 'Shaun East',
+      text: 'Divan’s dedication to continuous learning and growth is truly inspiring. Throughout his time studying Software Engineering with us, he demonstrated exceptional logical thinking, a proactive attitude, and an eagerness to master both C# and Python development. His blend of technical skill and strategic insight will make him an invaluable asset to any team.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+      name: 'Jason Matthews - Former Conveyancer, AMS Attorneys Inc',
+      text: 'Divan’s ability to lead, train, and optimize team operations is remarkable. His quick thinking, organization, and positive approach greatly improved our service efficiency. He always found innovative solutions to challenges and consistently elevated the team\'s performance. Divan is not just a strong leader but also someone who brings energy, technical knowledge, and professionalism to every project.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      name: 'Justine Swan',
+      text: 'During his time at Woodfield, Divan consistently demonstrated outstanding leadership and organizational skills. His ability to manage teams, delegate tasks efficiently, and maintain high service standards was remarkable. Divan\'s proactive mindset and problem-solving abilities significantly enhanced our team\'s performance and guest satisfaction. His dedication, professionalism, and technical aptitude made a lasting impact on our operations',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],

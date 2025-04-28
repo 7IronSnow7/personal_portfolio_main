@@ -96,13 +96,15 @@ const Testimonials: FC = memo(() => {
                 const isActive = index === activeIndex;
                 return (
                   <button
+                    aria-label={`Go to slide ${index + 1}`}
                     className={classNames(
                       'h-3 w-3 rounded-full bg-gray-300 transition-all duration-500 sm:h-4 sm:w-4',
                       isActive ? 'scale-100 opacity-100' : 'scale-75 opacity-60',
                     )}
                     disabled={isActive}
                     key={`select-button-${index}`}
-                    onClick={setTestimonial(index)}></button>
+                    onClick={setTestimonial(index)}>
+                    </button>
                 );
               })}
             </div>
@@ -123,7 +125,14 @@ const Testimonial: FC<{testimonial: Testimonial; isActive: boolean}> = memo(
       {image ? (
         <div className="relative h-14 w-14 shrink-0 sm:h-16 sm:w-16">
           <QuoteIcon className="absolute -left-2 -top-2 h-4 w-4 stroke-black text-white" />
-          <img className="h-full w-full rounded-full" src={image} />
+          <video 
+            autoPlay 
+            className="h-full w-full rounded-full object-cover" 
+            loop 
+            muted 
+            playsInline
+            src="/videos/testimonial_avatar.mp4" 
+          />
         </div>
       ) : (
         <QuoteIcon className="h-5 w-5 shrink-0 text-white sm:h-8 sm:w-8" />
