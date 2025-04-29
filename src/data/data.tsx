@@ -310,7 +310,7 @@ export const testimonial: TestimonialSection = {
   testimonials: [
     {
       name: 'Shaun East',
-      text: 'Divan’s dedication to continuous learning and growth is truly inspiring. Throughout his time studying Software Engineering with us, he demonstrated exceptional logical thinking, a proactive attitude, and an eagerness to master both C# and Python development. His blend of technical skill and strategic insight will make him an invaluable asset to any team.',
+      text: 'Divan’s dedication to continuous learning and growth is truly inspiring. Throughout his time studying Software Engineering with us, he demonstrated exceptional logical thinking, a proactive attitude, and an eagerness to master both C# and JavaScript development. His blend of technical skill and strategic insight will make him an invaluable asset to any team.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
