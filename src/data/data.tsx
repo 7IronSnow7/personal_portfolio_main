@@ -189,74 +189,74 @@ export const skills: SkillGroup[] = [
 /**
  * Portfolio section
  */
-export const portfolioItems: PortfolioItem[] = [
-  {
-    title: 'Website Security Verifier',
-    description: 'Give a short description of your project here.',
-    url: 'https://websitesecurityverifier.vercel.app/',
-    image: porfolioImage1,
-  },
-  {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
-  },
-];
+// export const portfolioItems: PortfolioItem[] = [
+//   {
+//     title: 'Website Security Verifier',
+//     description: 'Give a short description of your project here.',
+//     url: 'https://websitesecurityverifier.vercel.app/',
+//     image: porfolioImage1,
+//   },
+//   {
+//     title: 'Project title 2',
+//     description: 'Give a short description of your project here.',
+//     url: 'https://reactresume.com',
+//     image: porfolioImage2,
+//   },
+//   {
+//     title: 'Project title 3',
+//     description: 'Give a short description of your project here.',
+//     url: 'https://reactresume.com',
+//     image: porfolioImage3,
+//   },
+//   {
+//     title: 'Project title 4',
+//     description: 'Give a short description of your project here.',
+//     url: 'https://reactresume.com',
+//     image: porfolioImage4,
+//   },
+//   {
+//     title: 'Project title 5',
+//     description: 'Give a short description of your project here.',
+//     url: 'https://reactresume.com',
+//     image: porfolioImage5,
+//   },
+//   {
+//     title: 'Project title 6',
+//     description: 'Give a short description of your project here.',
+//     url: 'https://reactresume.com',
+//     image: porfolioImage6,
+//   },
+//   {
+//     title: 'Project title 7',
+//     description: 'Give a short description of your project here.',
+//     url: 'https://reactresume.com',
+//     image: porfolioImage7,
+//   },
+//   {
+//     title: 'Project title 8',
+//     description: 'Give a short description of your project here.',
+//     url: 'https://reactresume.com',
+//     image: porfolioImage8,
+//   },
+//   {
+//     title: 'Project title 9',
+//     description: 'Give a short description of your project here.',
+//     url: 'https://reactresume.com',
+//     image: porfolioImage9,
+//   },
+//   {
+//     title: 'Project title 10',
+//     description: 'Give a short description of your project here.',
+//     url: 'https://reactresume.com',
+//     image: porfolioImage10,
+//   },
+//   {
+//     title: 'Project title 11',
+//     description: 'Give a short description of your project here.',
+//     url: 'https://reactresume.com',
+//     image: porfolioImage11,
+//   },
+// ];
 
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
@@ -279,24 +279,35 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'Dec 2023 - Present',
-    location: 'Sebonack Golf Club, NY, USA',
-    title: 'Project Lead',
+    date: '2025 - Present',
+    location: 'ScriptBit, Cape Town, South Africa',
+    title: 'Freelance Software Developer',
     content: (
       <p>
-      Led the planning and execution of enterprise events, ensuring flawless delivery through strategic scheduling, logistics management, and on-site coordination. 
-      Proactively applied strong problem-solving skills to anticipate and address operational challenges, maintaining the organization's highest professional standards at every event.
+      Built and maintained a Flask-based insurance agent tracking system for lead submissions and campaign performance analytics. 
+      Integrated Airtable with automated delta-sync ingestion and developed pandas pipelines to clean, merge, and deduplicate datasets.
       </p>
     ),
   },
   {
-    date: 'Feb 2022 - Dec 2023',
-    location: 'Woodfield CC, FL, USA',
+    date: '2019 - 2022',
+    location: 'Woodfield CC, Boca Raton, Florida',
     title: 'Supervisor',
     content: (
       <p>
         Served as a primary point of contact for team coordination, facilitating seamless communication and swift decision-making in a fast-paced environment. 
         Utilized strong analytical and logical thinking to anticipate challenges, implement effective solutions, and drive improvements in service efficiency.
+      </p>
+    ),
+  },
+  {
+    date: 'Oct 2023 - May 2024 | Oct 2022 - June 2023 | Feb 2022 - June 2022',
+    location: 'AMS Attorneys Inc, Durban, South Africa',
+    title: 'Marketing Manager',
+    content: (
+      <p>
+       Led marketing and PR initiatives in the conveyancing industry to increase brand visibility and client engagement. 
+       Coordinated cross-functional communication to keep clients and stakeholders informed while using analytics to evaluate marketing performance and drive data-driven improvements.
       </p>
     ),
   },
@@ -319,7 +330,7 @@ export const testimonial: TestimonialSection = {
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
-      name: 'Justine Anne Swan',
+      name: 'Maxine Bougaardt',
       text: 'During his time at Woodfield, Divan consistently demonstrated outstanding leadership and organizational skills. His ability to manage teams, delegate tasks efficiently, and maintain high service standards was remarkable. Divan\'s proactive mindset and problem-solving abilities significantly enhanced our team\'s performance and guest satisfaction. His dedication, professionalism, and technical aptitude made a lasting impact on our operations',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
