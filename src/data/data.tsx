@@ -55,7 +55,7 @@ export const SectionId = {
   Hero: 'hero',
   About: 'about',
   Contact: 'contact',
-  Portfolio: 'portfolio',
+  // Portfolio: 'portfolio',
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
@@ -78,7 +78,7 @@ export const heroData: Hero = {
          <strong className="text-stone-100"> Freelancing </strong>building and scaling realworld applications.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me <strong className="text-stone-100"> training </strong>,
+        In my free time, you can catch me <strong className="text-stone-100"> training </strong>,
         <strong className="text-stone-100">coding</strong>, or travelling the{' '}
         <strong className="text-stone-100">World</strong>.
       </p>
