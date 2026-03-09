@@ -78,8 +78,8 @@ export const heroData: Hero = {
          <strong className="text-stone-100"> Freelancing </strong>building and scaling realworld applications.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100"> MMA </strong>,
-        coding on my <strong className="text-stone-100">pc</strong>, or travelling the{' '}
+        In my free time time, you can catch me <strong className="text-stone-100"> training </strong>,
+        <strong className="text-stone-100">coding</strong>, or travelling the{' '}
         <strong className="text-stone-100">World</strong>.
       </p>
     </>
@@ -115,12 +115,11 @@ bridge between development teams and business objectives. My
 unwavering commitment to excellence, proactive initiative, and dedication 
 to continuous improvement ensure measurable success in every endeavor`,
   aboutItems: [
-    {label: 'Location', text: 'South Africa', Icon: MapIcon},
-    {label: 'Age', text: '28', Icon: CalendarIcon},
+    {label: 'Location', text: 'Florida', Icon: MapIcon},
     {label: 'Nationality', text: 'South African', Icon: FlagIcon},
     {label: 'Interests', text: 'Travelling, Coding, MMA', Icon: SparklesIcon},
     {label: 'Study', text: 'IIE Varsity College', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Project Lead', Icon: BuildingOffice2Icon},
+    {label: 'Employment', text: 'Software Developer', Icon: BuildingOffice2Icon},
   ],
 };
 
