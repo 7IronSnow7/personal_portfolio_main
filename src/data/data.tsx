@@ -340,6 +340,11 @@ export const testimonial: TestimonialSection = {
       text: 'During his time at Woodfield, Divan consistently demonstrated outstanding leadership and organizational skills. His ability to manage teams, delegate tasks efficiently, and maintain high service standards was remarkable. Divan\'s proactive mindset and problem-solving abilities significantly enhanced our team\'s performance and guest satisfaction. His dedication, professionalism, and technical aptitude made a lasting impact on our operations',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
+    {
+      name: 'Jan Linde',
+      text: 'He consistently delivers on all data requirements. The level of transparency he has brought to our business has been extremely valuable and eye-opening.',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+    },
   ],
 };
 
