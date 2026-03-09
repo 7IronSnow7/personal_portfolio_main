@@ -2,7 +2,7 @@ import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
   BuildingOffice2Icon,
-  CalendarIcon,
+  // CalendarIcon,
   FlagIcon,
   MapIcon,
   SparklesIcon,
@@ -153,11 +153,11 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'HTML',
-        level: 5,
+        level: 8,
       },
       {
         name: 'CSS',
-        level: 4
+        level: 7
       },
     ],
   },
@@ -166,11 +166,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Python',
-        level: 8,
+        level: 9,
       },
       {
         name: 'C#',
-        level: 5,
+        level: 6,
       },
     ],
   },
@@ -180,6 +180,10 @@ export const skills: SkillGroup[] = [
       {
         name: 'Django',
         level: 5,
+      },
+      {
+        name: 'Flask',
+        level: 10,
       },
     ],
   },
