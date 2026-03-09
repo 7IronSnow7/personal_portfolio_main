@@ -274,7 +274,14 @@ export const education: TimelineItem[] = [
     title: 'Honors in Management and Leadership',
     content: <p>Explored advanced concepts in leadership, organizational management, and decision-making strategies.</p>,
   },
+  {
+    date: '2023',
+    location: 'School Of IT, Cape Town, South Africa',
+    title: 'C# & JavaScript Bootcamp',
+    content: <p>Bootcamp focused on C# development and JavaScript for building modern web applications.</p>,
+  },
 ];
+
 
 export const experience: TimelineItem[] = [
   {
