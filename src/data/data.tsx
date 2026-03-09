@@ -290,13 +290,13 @@ export const experience: TimelineItem[] = [
     title: 'Freelance Software Developer',
     content: (
       <p>
-      Built and maintained a Flask-based insurance agent tracking system for lead submissions and campaign performance analytics. 
-      Integrated Airtable with automated delta-sync ingestion and developed pandas pipelines to clean, merge, and deduplicate datasets.
+      Architected and actively maintain a Flask-based insurance agent tracking system, processing lead submissions 
+      and delivering performance analytics across multiple campaigns.
       </p>
     ),
   },
   {
-    date: '2019 - 2022',
+    date: 'Oct 2023 - May 2024 | Oct 2022 - June 2023 | Feb 2022 - June 2022 ',
     location: 'Woodfield CC, Boca Raton, Florida',
     title: 'Supervisor',
     content: (
@@ -307,7 +307,7 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'Oct 2023 - May 2024 | Oct 2022 - June 2023 | Feb 2022 - June 2022',
+    date: '2019 - 2022',
     location: 'AMS Attorneys Inc, Durban, South Africa',
     title: 'Marketing Manager',
     content: (
