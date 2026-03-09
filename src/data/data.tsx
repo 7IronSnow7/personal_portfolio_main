@@ -183,7 +183,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Flask',
-        level: 10,
+        level: 9,
       },
     ],
   },
@@ -265,24 +265,24 @@ export const skills: SkillGroup[] = [
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
 export const education: TimelineItem[] = [
-  {
-    date: '02 Feb 2015 -  14 Nov 2017',
-    location: 'IIE Varsity College, Durban, South Africa',
-    title: 'Bachelor of Commerce in Business',
-    content: <p>Majored in Marketing where I developed a solid foundation in business principles, and strategic communication.
- </p>,
+   {
+    date: '2023',
+    location: 'School Of IT, Cape Town, South Africa',
+    title: 'C# & JavaScript Certificate',
+    content: <p>Bootcamp focused on C# development and JavaScript for building modern web applications.</p>,
   },
   {
-    date: '05 Feb 2018 - 30 Nov 2018',
+    date: '2018',
     location: 'IIE Varsity College, Durban, South Africa',
     title: 'Honors in Management and Leadership',
     content: <p>Explored advanced concepts in leadership, organizational management, and decision-making strategies.</p>,
   },
   {
-    date: '2023',
-    location: 'School Of IT, Cape Town, South Africa',
-    title: 'C# & JavaScript Bootcamp',
-    content: <p>Bootcamp focused on C# development and JavaScript for building modern web applications.</p>,
+    date: '2015 -  2017',
+    location: 'IIE Varsity College, Durban, South Africa',
+    title: 'Bachelor of Commerce in Marketing',
+    content: <p>Majored in Marketing where I developed a solid foundation in business principles, and strategic communication.
+ </p>,
   },
 ];
 
@@ -368,8 +368,8 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Location,
-      text: 'South Africa, Durban',
-      href: 'https://www.google.ca/maps/place/Durban,+South+Africa/@-29.883333,31.049999,14z',
+      text: 'United States, Florida',
+      href: 'https://www.google.com/maps/@25.0865,-80.4473,14z',
     },
     {
       type: ContactType.Instagram,
